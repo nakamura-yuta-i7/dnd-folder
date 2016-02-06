@@ -1,0 +1,58 @@
+body {
+	padding-top: 60px;
+}
+.dragging-src-elem {
+	opacity: 0.7;
+}
+.dragging-elem {
+	display: inline-block;
+	position: fixed;
+}
+.drag-hover {
+	box-sizing: border-box;
+	background: red !important;
+}
+.folder:-moz-drag-over {
+  border: 1px solid black;
+}
+
+.side-panel {
+	width: 150px;
+}
+.folder {
+	background-color: RGBA(255, 218, 108, 1);
+}
+.folder a {
+	display: block;
+	color: black;
+	padding: 5px;
+	outline : none;
+}
+.folder a:hover {
+	background-color: RGBA(243, 207, 93, 1);
+}
+header {
+	position: fixed;
+	top:0; 
+	left: 0;
+	height: 60px;
+	z-index: 9999;
+	background: RGBA(11, 116, 213, 1);
+	width: 100%;
+}
+header > a {
+	margin-top: 12px;
+	margin-left: 10px;
+	display: inline-block;
+}
+header nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+header nav ul, header nav li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
